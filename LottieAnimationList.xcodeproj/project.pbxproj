@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AE9F8C792D3064EA00ADC28D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AE9F8C782D3064EA00ADC28D /* Lottie */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AE9F8C642D30631700ADC28D /* LottieAnimationList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimationList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9F8C792D3064EA00ADC28D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = LottieAnimationList;
 			packageProductDependencies = (
+				AE9F8C782D3064EA00ADC28D /* Lottie */,
 			);
 			productName = LottieAnimationList;
 			productReference = AE9F8C642D30631700ADC28D /* LottieAnimationList.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = AE9F8C5B2D30631700ADC28D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AE9F8C772D3064EA00ADC28D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AE9F8C652D30631700ADC28D /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE9F8C772D3064EA00ADC28D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE9F8C782D3064EA00ADC28D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE9F8C772D3064EA00ADC28D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE9F8C5C2D30631700ADC28D /* Project object */;
 }
